@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timezone finder</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+      html,body{
+        text-align: center;
+        width:350px;
+      }
+      
+      img{
+        width:54px;
+        padding: 5px;
+      }
+      
+      a{
+        text-decoration: none;
+      }
+      
+      .fa {
+        padding:15px;
+        font-size:45px;
+        color:#000;
+      }
+      
+      .fa-youtube:hover{
+        color:red;
+      }
+      
+       .fa-facebook:hover{
+        color:blue;
+      }
+      
+       .fa-twitter:hover{
+        color:lightblue;
+      }
+      
+      .fa-github:hover{
+        color:orange;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      
+    <h4>
+      <img src="refresh.png">
+     Fiver Auto Refresher
+    </h4>
+    <div id="statusRefresh"></div>
+    <hr>
+
+    <div class="form-group">
+      <label for="timeforreload">Time</label>
+      <input type="text" class="form-control" id="timeforreload">
+    </div>
+
+    <button id="autorefresh" class="btn btn-outline-primary btn-block mb-2">Start refresh</button>
+    <hr>
+    <a href="https://www.youtube.com/c/RaihanMiraj" target="_blank">
+      <i class="fa fa-youtube"></i>
+    </a>
+    
+    <a href="https://www.facebook.com/raihan.miraj.official" target="_blank">
+      <i class="fa fa-facebook"></i>
+    </a>
+    
+    <a href="https://twitter.com/RaihanMiraj" target="_blank">
+      <i class="fa fa-twitter"></i>
+    </a>
+    
+     
+    <a href="https://github.com/Raihanmiraj" target="_blank">
+      <i class="fa fa-github"></i>
+    </a>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>

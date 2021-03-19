@@ -1,0 +1,27 @@
+{
+  
+  "manifest_version":2,
+  "name":"Fiver AutoRefresher",
+  "version":"1.0.1",
+  "description":"This is a simple extension that Refresh Fiver After 10 Second",
+  "author":"Raihan Miraj",
+  
+  "icons":{
+    "128":"refresh.png"
+  },
+  
+  "browser_action":{
+    "default_popup":"popup.html",
+    "default_icon":"refresh.png",
+    "default_title":"Fiver AutoRefresher"
+
+  },
+  
+   
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>","activeTab", "tab","webNavigation"],
+  
+  "background":{
+    "scripts":["main.js"]
+  }
+  
+}
