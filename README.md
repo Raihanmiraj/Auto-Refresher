@@ -1,2 +1,2 @@
 # Auto-Refresher
-auto refresher extension for google chrome
+auto refresher extension for google chrome.
